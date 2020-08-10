@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Sriracha', cursive, Arial, Helvitica;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #191970;
+  border-radius: 0;
+  border: 0;
+  min-height: 70px;
+   padding-top: 25px;
+}
+
+.navbar-default .navbar-brand{
+	color: white;
+}
+
+.brand-heading  { 
+  padding-top: 10px;
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 175%;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+	background: white;
+	color: #191970;
+	/*text-align: center;*/
+}
+#nav-list a:hover {
+  background: #191970;
+  color: white;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #f5fffa;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+/* END HEADER */
+
+h1{
+	font-weight: bold;
+	padding: 20px;
+   font-size: 175%;
+}
+
+section{
+	border: 1px solid black;
+	margin: 1%;
+	background-color: #191970;
+}
+
+p{
+	clear:right;
+	padding:10px;
+  }
+
+ p a{
+ 	text-decoration: none;
+ }
+
+.row{
+	width:96%;
+	margin-left: 2%;
+	margin-right: 2%;
+	color: white;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+   .col-lg-4{
+    float: left;
+    border: 1px solid black;
+    width: 31.33%;
+  }
+}  
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  
+  .col-md-6 {
+    width: 48%;
+  }
+  
+  .col-md-12 {
+    width: 98%;
+  }
+}
+
+
