@@ -58,10 +58,10 @@ h1{
 	font-weight: bold;
 	padding: 20px;
    font-size: 175%;
+   color:midnightblue;
 }
 
 section{
-	border: 1px solid black;
 	margin: 1%;
 	background-color: #191970;
 }
